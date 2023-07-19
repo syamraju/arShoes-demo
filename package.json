@@ -2,7 +2,7 @@
   "name": "shoe-try-on",
   "version": "1.0.0",
   "description": "DeepAR shoe-try-on demo.",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "build": "rm -rf dist && webpack --config webpack.config.js --mode production && cp -r public/* dist && cp -r node_modules/deepar dist/deepar-resources",
     "dev": "webpack serve --mode development --open --port 8888"
